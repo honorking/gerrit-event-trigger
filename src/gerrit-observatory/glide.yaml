@@ -1,0 +1,56 @@
+package: "gerrit_observatory"
+import:
+- package: github.com/davecgh/go-spew
+  version: 5215b55f46b2b919f50a1df0eaa5886afe4e3b3d
+  repo: https://github.com/davecgh/go-spew
+  subpackages:
+  - spew
+- package: github.com/dustin/go-broadcast
+  version: 3bdf6d4a7164a50bc19d5f230e2981d87d2584f1
+  repo: https://github.com/dustin/go-broadcast
+- package: github.com/garyburd/redigo
+  version: 6ece6e0a09f28cc399b21550cbf37ab39ba63cce
+  repo: https://github.com/garyburd/redigo
+  subpackages:
+  - internal
+  - redis
+- package: github.com/gin-gonic/gin
+  version: 52fcc5dbf6e94df33ad313858fb94b713e9d1b4a
+  repo: https://github.com/gin-gonic/gin
+- package: github.com/kelseyhightower/envconfig
+  version: 12c18e8343f6eb5fc3a9d5c8dc353e42e6bb40b9
+  repo: https://github.com/kelseyhightower/envconfig
+- package: github.com/manucorporat/sse
+  version: fe6ea2c8e398672518ef204bf0fbd9af858d0e15
+  repo: https://github.com/manucorporat/sse
+- package: github.com/manucorporat/stats
+  version: 8f2d6ace262eba462e9beb552382c98be51d807b
+  repo: https://github.com/manucorporat/stats
+- package: github.com/mattn/go-colorable
+  version: 51a7e7a8b1665b25ca173debdc8d52d493348f15
+  repo: https://github.com/mattn/go-colorable
+- package: github.com/pmezard/go-difflib
+  version: d8ed2627bdf02c080bf22230dbb337003b7aba2d
+  repo: https://github.com/pmezard/go-difflib
+  subpackages:
+  - difflib
+- package: github.com/stretchr/objx
+  version: 1a9d0bb9f541897e62256577b352fdbc1fb4fd94
+  repo: https://github.com/stretchr/objx
+- package: github.com/stretchr/testify
+  version: 67106a5111a06241c8d84952c33214675f51a34a
+  repo: https://github.com/stretchr/testify
+- package: golang.org/x/crypto
+  version: 346896d57731cb5670b36c6178fc5519f3225980
+  repo: https://go.googlesource.com/crypto
+  subpackages:
+  - curve25519
+  - ssh
+- package: golang.org/x/net
+  version: 1d9fd3b8333e891c0e7353e1adcfe8a612573033
+  repo: https://go.googlesource.com/net
+  subpackages:
+  - context
+- package: gopkg.in/bluesuncorp/validator.v5
+  version: d5acf1dac43705f8bfbb71d878e290e2bed3950b
+  repo: https://gopkg.in/bluesuncorp/validator.v5
