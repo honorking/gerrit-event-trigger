@@ -10,7 +10,7 @@ import (
 var (
 	GerritPort  = 29418
 	GerritUser  = "autodeploy"
-	GerritHost  = "git.wandoulabs.com"
+	GerritHost  = "xxx"
 	PrivateKey  = "./.id_rsa"
 	RedisHost   = "127.0.0.1"
 	RedisPort   = 6379
